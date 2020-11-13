@@ -1,0 +1,34 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.header{background-image: url('./assets/bg.jpg');
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.89;
+ 
+ }
+
+.one{width: 550px;height: 550px;position: relative;top:50px;left: 405px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+border-radius: 10px;transition: transform 0.8s;border: 2px solid gray;}
+
+.one:hover{transform: translate(10px);}
+
+.two{width: 350px;height: 150px;position: absolute;top:25px;left: 100px;}
+.two input{width: 360px;height: 30px;opacity: 0.45;}
+::placeholder {
+  padding-left: 10px;font-size: 15px;color: black;font-weight: bold;
+}
+/* .two p{margin-left: 100px;} */
+.two button{background-color: skyblue;color: white;width: 200px;height: 40px;text-align: center;border: none;
+margin-left: 80px;}
+.three{margin-bottom: 20px;text-transform: capitalize;text-align: center;}
+
+.pone{color: skyblue;margin-left: 230px;margin-top: 10px;}
+
+.four{position: absolute;top:410px;left: 110px;text-transform: capitalize;}
+.four-flex{display: flex;justify-content: space-between;margin-top: 20px;margin-bottom: 20px;}
+
+.span{color: skyblue;}
